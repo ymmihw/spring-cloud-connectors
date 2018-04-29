@@ -1,1 +1,1 @@
-web: java -jar spring-cloud-connectors-heroku/target/spring-cloud-connectors-heroku-0.0.1-SNAPSHOT.jar -Dspring.profiles.active=heroku
+web: java -Dspring.profiles.active=heroku -jar spring-cloud-connectors-heroku/target/spring-cloud-connectors-heroku-0.0.1-SNAPSHOT.jar
